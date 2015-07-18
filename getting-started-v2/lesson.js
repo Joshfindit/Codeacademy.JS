@@ -2,5 +2,9 @@
 
 +3 / +4; //basic math
 
-potato //Confuse the interpreter
+//potato //Confuse the interpreter
 
+
+// This is a comment that the computer will ignore. 
+// It is for your eyes only!
+"cake".length;
