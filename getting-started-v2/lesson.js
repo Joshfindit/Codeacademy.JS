@@ -76,3 +76,14 @@ if( 40000000000000 % 2 === 0 ) {
 console.log("January".substring(0, 3));
 console.log("Melbourne is great".substring(0, 12));
 console.log("Hamburgers".substring(3, 30));
+
+
+// Declare a variable on line 3 called
+// myCountry and give it a string value.
+var myCountry = "Canada";
+
+// Use console.log to print out the length of the variable myCountry.
+console.log( myCountry.length );
+
+// Use console.log to print out the first three letters of myCountry.
+console.log(myCountry.substring(0,3) );
