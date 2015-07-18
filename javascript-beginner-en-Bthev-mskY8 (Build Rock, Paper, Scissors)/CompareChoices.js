@@ -25,8 +25,18 @@ var compare = function (choice1, choice2) {
             return "Paper wins!";
         }
     }
+    else if (choice1 === "scissors") {
+        if (choice2 === "paper") {
+            return "Scissors wins!";
+        }
+        else if (choice2 === "rock") {
+            return "Rock wins!";
+        }
+    }
     else
     {
-        return "Paper wins!";
+        return "Something went wrong!";
     }
 }
+
+console.log(compare (userChoice, computerChoice));
