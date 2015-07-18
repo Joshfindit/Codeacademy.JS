@@ -17,3 +17,10 @@ var beiberQuestion1 = "Suddenly, Bieber stops and says, 'Who wants to race me?'"
 console.log(scene1);
 console.log(beiberQuestion1);
 var userAnswer = prompt ("Do you want to race Bieber on stage?");
+
+if (userAnswer === "yes") {
+    console.log("You and Bieber start racing. It's neck and neck! You win by a shoelace!");
+}
+else {
+    console.log("Oh no! Bieber shakes his head and sings 'I set a pace, so I can race without pacing.'");
+}
