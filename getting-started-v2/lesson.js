@@ -71,3 +71,8 @@ if( 40000000000000 % 2 === 0 ) {
 
 
 "wonderful day".substring(3, 7);
+
+
+console.log("January".substring(0, 3));
+console.log("Melbourne is great".substring(0, 12));
+console.log("Hamburgers".substring(3, 30));
