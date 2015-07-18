@@ -14,3 +14,5 @@ confirm("Where are my pants?!");
 prompt("Where are you from?");
 
 "This is a yellow peice of text".length;
+
+"I'm coding like a champ".length > 10;
