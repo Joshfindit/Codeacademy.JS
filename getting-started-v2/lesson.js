@@ -20,3 +20,13 @@ prompt("Where are you from?");
 if (prompt("What is your name?").length <= 7 ) {
     console.log( "Some names are short." );
 }
+
+if ( prompt("What is your name?").length >= 7 ) 
+{
+    console.log("Long name!");
+}
+else 
+{
+    // What should we do if the condition is false? Fill in here:
+    console.log("Short or unknown name!");
+}
