@@ -16,3 +16,7 @@ prompt("Where are you from?");
 "This is a yellow peice of text".length;
 
 "I'm coding like a champ".length > 10;
+
+if (prompt("What is your name?").length <= 7 ) {
+    console.log( "Some names are short." );
+}
