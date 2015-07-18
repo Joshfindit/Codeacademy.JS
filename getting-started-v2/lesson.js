@@ -10,3 +10,5 @@
 "cake".length;
 
 confirm("Where are my pants?!");
+
+prompt("Where are you from?");
