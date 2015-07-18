@@ -106,3 +106,12 @@ console.log(myName);
 
 var myColor = "Green";
 console.log(myColor.length);
+
+
+var myDone = "done";
+
+if ( myDone.length !== 4 ) {
+    console.log("I finished my first course!");
+} else {
+    console.log("I finished my first course!");
+}
