@@ -68,3 +68,6 @@ if( 40000000000000 % 2 === 0 ) {
 } else {
     console.log("The first number is odd");
 }
+
+
+"wonderful day".substring(3, 7);
