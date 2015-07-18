@@ -38,3 +38,13 @@ if ( 1 !== 1 ) {
 else {
     console.log("The condition is false");
 }
+
+if ("Jon".length * 2 / (2+1) === 2 )
+{
+    console.log("The answer makes sense!");
+    console.log("Error Error Error");
+} 
+else 
+{
+    
+}
