@@ -17,6 +17,14 @@ var compare = function (choice1, choice2) {
             return "Rock wins!";
         }
     }
+    else if (choice1 === "paper") {
+        if (choice2 === "scissors") {
+            return "Scissors wins!";
+        }
+        else if (choice2 === "rock") {
+            return "Paper wins!";
+        }
+    }
     else
     {
         return "Paper wins!";
