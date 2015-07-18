@@ -102,3 +102,7 @@ myName = myName.substring(0,2);
 // On line 9, use console.log to print out the myName variable.
 
 console.log(myName);
+
+
+var myColor = "Green";
+console.log(myColor.length);
