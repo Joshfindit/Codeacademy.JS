@@ -30,3 +30,11 @@ else
     // What should we do if the condition is false? Fill in here:
     console.log("Short or unknown name!");
 }
+
+
+if ( 1 !== 1 ) {
+    console.log("The condition is true");
+}
+else {
+    console.log("The condition is false");
+}
